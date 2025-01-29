@@ -7,7 +7,7 @@
 
                 </h2>
                 <p>
-                    Explore top destinations with peak climbing,trekking, and exciting day trips.
+                    Explore top destinations with peak climbing,trekking, and exciting day trips.asd
                 </p>
 
             </div>
