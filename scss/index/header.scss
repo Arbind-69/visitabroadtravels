@@ -1,0 +1,54 @@
+.header{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    .container{
+        .info-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .logo {
+                width: 150px;
+
+            }
+            .nav-bar{
+                ul{
+                    display: flex;
+                    
+                    li{
+                     
+                      
+                        a{
+                            font-size: 20px;
+                            padding: 0px 15px;
+                            color:$secondarycolor;
+                            font-family: "Poppins", serif;
+
+
+
+                        }
+                        a:hover{
+                            color: $primarycolor;
+                        }
+                        
+
+                        
+
+                  
+                        
+                    }
+      
+                }
+    
+            }
+            .btn{
+                
+            }
+        }
+        
+    }
+
+}
