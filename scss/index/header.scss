@@ -1,54 +1,131 @@
-.header{
+.header {
     width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
-    .container{
-        .info-header{
+
+    .container {
+        .info-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+
             .logo {
-                width: 150px;
+                width: 120px;
 
             }
-            .nav-bar{
-                ul{
+
+            .nav-bar {
+                ul {
                     display: flex;
-                    
-                    li{
-                     
-                      
-                        a{
-                            font-size: 20px;
+
+                    li {
+
+
+                        a {
+                            font-size: 18px;
                             padding: 0px 15px;
-                            color:$secondarycolor;
+                            color: $secondarycolor;
                             font-family: "Poppins", serif;
 
 
 
                         }
-                        a:hover{
+
+                        a:hover {
                             color: $primarycolor;
                         }
-                        
 
-                        
 
-                  
-                        
+
+
+
+
                     }
-      
+
                 }
-    
+
             }
-            .btn{
-                
+
+            .btn {}
+
+            .toggle-btn {
+                display: none;
+                cursor: pointer;
+                font-size: 24px;
+                color: $secondarycolor;
+                background-color: $textcolor;
+                padding: 2px;
             }
         }
-        
+
+    }
+
+}
+
+
+// responsive less than 992 
+
+
+@media screen and (max-width: 992px) {
+    .header {
+
+
+        .container {
+            .info-header {
+
+                .logo {
+                    width: 100px;
+
+                }
+
+                .nav-bar {
+                    display: none;
+
+                    ul {
+                        display: flex;
+
+                        li {
+
+
+                            a {
+                                font-size: 18px;
+                                padding: 0px 15px;
+                                color: $secondarycolor;
+                                font-family: "Poppins", serif;
+
+
+
+                            }
+
+                            a:hover {
+                                color: $primarycolor;
+                            }
+
+
+
+
+
+
+                        }
+
+                    }
+
+                }
+
+                .btn {
+                    display: none;
+                }
+
+                .toggle-btn {
+                    display: block;
+
+                }
+            }
+
+        }
+
     }
 
 }

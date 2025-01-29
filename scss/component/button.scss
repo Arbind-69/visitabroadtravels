@@ -1,19 +1,17 @@
-.primary-btn{
-    font-size: 18px;
-                    border: 2px solid $primarycolor;
-                    padding: 10px 30px;
-                    border-radius: 60px;
-                    background-color:  $primarycolor;
-                    color: white;
-                    transition: 0.3s ease-in;
-  
+.primary-btn {
+  font-size: 16px;
+  border: 2px solid $primarycolor;
+  padding: 10px 25px;
+  border-radius: 60px;
+  background-color: $primarycolor;
+  color: white;
+  transition: 0.3s ease-in;
+
   font-family: "Poppins", serif;
 
-  &:hover{
+  &:hover {
     color: $primarycolor;
     background-color: transparent;
 
   }
 }
-
-
